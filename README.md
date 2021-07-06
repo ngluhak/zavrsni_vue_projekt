@@ -1,5 +1,5 @@
 # zavrsni_vue_projekt
-
+KOD JE UNUTAR MASTER BRANCH-A
 
 Spojena su oba dijela projekta (prije je bio html/css/js odvojen od vue projekta) i prikazani su kao komponente.
 
