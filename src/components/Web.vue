@@ -3,17 +3,20 @@
     <hr />
 
     <a href="#"
-      ><img :src="block.slika_link" alt="slikica" class="portfolio__img"
+      ><img  :src="block.slika_link" alt="slikica" class="portfolio__img"
     /></a>
     <div class="portfolio__data">
       <span class="portfolio__subtitle">{{ block.subtitle }}</span>
-      <a href="#"
+      <a 
         ><h2 class="portfolio__title">{{ block.title }}</h2></a
       >
       <a :href="block.link" class="button button-link">View details</a>
+
+
     </div>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -21,5 +24,8 @@ export default {
     block: Object,
   },
   name: "web",
+  
 };
 </script>
+
+
